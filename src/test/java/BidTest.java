@@ -16,7 +16,7 @@ class BidTest {
         int expectedQuantity = 8;
         int expectedCash = 6;
 
-        //action
+        //act
         bid.init(quantity, cash);
         int actualCash = bid.getParticipant().getCash();
         int actualQuantity = bid.getParticipant().getQuantity();
@@ -33,7 +33,7 @@ class BidTest {
         int quantity = 8;
         int cash = 6;
         int expectedAmountPerRound = 0;
-        //action
+        //act
         bid.init(quantity, cash);
         int actualAmountPerRound = bid.placeBid();
         //assert
