@@ -1,12 +1,6 @@
-
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-
-class AuctionTest {
-
+class AuctionTestStrategiesOfOpponent {
     @Test
     void equalityStrategyOpponent() {
 
@@ -67,5 +61,4 @@ class AuctionTest {
         //assert
         assert (expectedWinQuantity == actualWinQuantity);
     }
-
 }
